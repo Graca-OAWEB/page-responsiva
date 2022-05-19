@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Landing Page | Responsiva</title>
+
+    <link rel="icon" type="image/icon" href="IMAGEM/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="CSS/Styles.css">
+    <!--________GOOGLE FONTS________-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <!--________EFEITO ICONS _______-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--SCRIPT ICONES SITE IONICONS-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<div></div>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="IMAGEM/Logo.png" alt="Logo business">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contato</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <ion-icon name="close-sharp"></ion-icon>
+                </div>
+            </div>
+
+            <!-- BOTÃO MENU -->
+            <div class="nav__toggle" id="nav-toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="sectionPage home">
+       
+                <div class="home__text">
+                    <span class="home__subtitle">WEB DESIGN</span>
+                    <h1 class="home__title">Responsividade</h1>
+                    <p class="home__description">
+                       Um comportamento diferente em cada tamanho de tela <br> uma boa experiência do usuário garantida.
+                    </p>
+                    <a href="#" class="home__button">
+                        Saiba Mais
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <img src="IMAGEM/responsive-web-design-.png" alt="Figura de dispositivos">
+                    <div class="home__shadow"></div>
+                </div>
+         
+        </section>
+        <!--==================== FOOTER ====================-->
+        <footer class="home__footer">
+            <form class="subscribeForm" action="email@email.com" method="post">
+
+                <legend>Receba nossas newsletter</legend>
+                <div class="submit-Form">
+                    <input type="email" placeholder="E-mail" name="email" id="email" required>
+                    <input type="submit" id="submit" value="Inscrever-se">
+                </div>
+            </form>
+
+            <ul class="social-icon">
+                <li><a href="">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                <li><a href="">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li><a href="">
+                        <ion-icon name="logo-snapchat"></ion-icon>
+                    </a></li>
+                <li><a href="">
+                        <ion-icon name="logo-tiktok"></ion-icon>
+                    </a></li>
+            </ul>
+            </div>
+
+            <ul class="menu-leg">
+                <li><a href="./TermosDeUso.html" target="_self">Termos de uso</a></li>
+                <li><a href="./PoliticaDePrivacidade.html" target="_self">Política de privacidade</a></li>
+                <li><a href="./PoliticaDeCookies.html" target="_self">Política de Coockies</a></li>
+                <li><a href="./FAQ.html" target="_self">FAQ</a></li>
+            </ul>
+
+            <p> &copy;2022 | Desenvolvido por Graça Santos </p>
+        </footer>
+    </main>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="JS/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
